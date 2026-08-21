@@ -1,3 +1,5 @@
+# PERSONALIZE: “GNOME” Desktop Environment (DE)
+
 The easiest way is to use **Ubuntu's package manager for fonts/icons** and install the rest with one script.
 ### Step 1: Install fonts, icons, and Tweaks
 

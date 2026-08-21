@@ -1,3 +1,5 @@
+# OS-OPTIMIZATION: Ultimate Ubuntu Performance Optimization Guide
+
 This is the setup I would use for a high-performance Ubuntu workstation intended for software development, heavy multitasking, containers, browsers, IDEs, databases, and general productivity.
 
 ## 1. Start with the Right Hardware
@@ -218,8 +220,6 @@ For Chrome/Chromium:
 
 Modern browsers consume more resources than most Linux services combined.
 
----
-
 # 14. Keep Plenty of Free Disk Space
 
 Maintain:
@@ -233,8 +233,6 @@ Check:
 ```bash
 df -h
 ```
-
----
 
 # 15. Use Faster DNS
 
@@ -257,8 +255,6 @@ Restart:
 sudo systemctl restart systemd-resolved
 ```
 
----
-
 # 16. Development Workstation Tweaks
 
 If you're a developer:
@@ -280,8 +276,6 @@ Useful for:
 - Angular
 - Large repositories
 
----
-
 # 17. Docker Optimization
 
 Regular cleanup:
@@ -298,8 +292,6 @@ docker system df
 
 Unused images and volumes can consume tens of gigabytes.
 
----
-
 # 18. Best Filesystem
 
 For desktop and development workloads:
@@ -313,8 +305,6 @@ Recommendation:
 ```
 Use ext4 on NVMe SSD
 ```
-
----
 
 # 19. Install Only What You Need
 
@@ -330,8 +320,6 @@ Find large packages:
 dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
 ```
 
----
-
 # 20. Best Desktop Choices
 
 For maximum speed:
@@ -344,8 +332,6 @@ For maximum speed:
 For modern hardware (16+ GB RAM), GNOME is fine.
 
 For older systems, Xfce is noticeably faster.
-
----
 
 # 21. Benchmark Your System
 
@@ -363,8 +349,6 @@ sudo apt install fio
 fio --name=test --rw=read --size=1G
 ```
 
----
-
 # 22. Advanced Kernel Tweaks
 
 Install preload:
@@ -374,8 +358,6 @@ sudo apt install preload
 ```
 
 This learns which applications you use most and preloads them into memory.
-
----
 
 # 23. Thermal Optimization
 
@@ -396,9 +378,7 @@ your system may be throttling and losing performance.
 
 Clean dust, improve airflow, or replace thermal paste if needed.
 
----
-
-# Ideal Ubuntu Setup (2026)
+# ☰ Ideal Ubuntu Setup (2026)
 
 ```
 Ubuntu LTS

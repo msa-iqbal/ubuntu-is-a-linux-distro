@@ -49,7 +49,7 @@ Ref: <https://www.youtube.com/watch?v=hDq96zim1V4>
 sudo fdisk -l
 sudo apt-get install nfs-common
 sudo apt-get install cifs-utils
-sudo ntfsfix -d /dev/sdf1
+sudo ntfsfix -d /dev/sdd1
 ```
 
 ### 🗳 Waydroid (Run Android Apps)
